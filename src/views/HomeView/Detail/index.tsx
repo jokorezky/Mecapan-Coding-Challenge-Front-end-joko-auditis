@@ -18,21 +18,9 @@ import Divider from '@material-ui/core/Divider';
 import ListItem from '../../../components/LIstItems';
 import ListItemText from '../../../components/ListItemText';
 
-const useStyles = makeStyles(theme => ({
-    flex: {
-        display: 'flex',
-        marginTop: 20
-    },
-    icon: {
-        marginRight: theme.spacing(0.5),
-        width: 20,
-        height: 20,
-    },
-}),
-);
 
-const Detail = ({ data }, props) => {
-    const { object, name, updatedAt, isPrivate, primaryLanguage } = data || {};
+const Detail = ({ data }) => {
+    const { object, name, isPrivate } = data || {};
     const listItems = object?.entries.map((repo, index) => {
         const { name, type } = repo || {};
         return (

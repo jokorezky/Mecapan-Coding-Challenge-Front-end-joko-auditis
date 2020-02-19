@@ -10,21 +10,6 @@
         "displayName": true,
         "preprocess": false
       }
-    ],
-    [
-      "module-resolver",
-      {
-        "root": [
-          "./"
-        ],
-        "alias": {
-          "#src": "./src",
-          "#views": "./src/views"
-        },
-        "extensions": [
-          ".tsx"
-        ]
-      }
     ]
   ]
 }
