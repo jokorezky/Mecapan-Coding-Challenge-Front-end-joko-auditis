@@ -16,13 +16,12 @@ const useStyles = makeStyles((theme: Theme) =>
 
 
 const Index = () => {
-  console.log("process.env.GIT_TOKEN", process.env.GIT_TOKEN)
   const classes = useStyles();
   // the hook that calls the query.
   const repos = useQuery(GET_MYGITHUB)
   const { data } = repos;
   const { viewer } = data || {};
-  const { name, avatarUrl } = viewer || {};
+  const { name } = viewer || {};
   return (
     <>
       <Head>
