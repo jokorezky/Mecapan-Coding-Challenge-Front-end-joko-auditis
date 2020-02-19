@@ -1,0 +1,11 @@
+// I made a custom router /: url /server /index.ts
+// which is used to create dynamic: url displays the view page/details
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "commonjs",
+      "outDir": "dist",
+      "noEmit": false
+    },
+    "include": ["server"]
+  }
