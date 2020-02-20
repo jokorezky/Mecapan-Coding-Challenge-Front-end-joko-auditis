@@ -3,6 +3,9 @@
 
 The goal of this challenge is to give the candidate the opportunity to demonstrate their web front-end engineering skills. In this challenge, the candidate will be expected to learn from various sources of documentation, configure a project, and use the knowledge they've obtained to build a working web application.
 
+demo : [http://18.138.93.13:5000/](http://18.138.93.13:5000/)
+
+
 ## This application uses :
 * Comitizen [https://github.com/commitizen/cz-cli](https://github.com/commitizen/cz-cli)
 * Graphql [https://graphql.org/](https://graphql.org/)
